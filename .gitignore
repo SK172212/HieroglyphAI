@@ -1,0 +1,25 @@
+# Virtual environments
+app_venv/
+venv/
+.venv/
+classification_env/
+*_venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Credentials and environment configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+**/secrets.toml
+
+# Temporary app uploads
+temp_input.png
+temp_input_*.png
+
+# macOS Finder metadata
+.DS_Store
+._*
