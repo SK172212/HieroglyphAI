@@ -14,6 +14,7 @@ first_img = coco["images"][0]
 img_id = first_img["id"]
 file_name = first_img["file_name"]
 
+img_path = IMG_DIR / file_name
 print("Using image:", file_name)
 print("Image path:", img_path)
 
