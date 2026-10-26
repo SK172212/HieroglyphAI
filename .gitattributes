@@ -1,0 +1,6 @@
+glyph_det/experiments/v1/model_final.pth filter=lfs diff=lfs merge=lfs -text
+glyph_det/experiments/v2/model_final.pth filter=lfs diff=lfs merge=lfs -text
+glyph_det/experiments/v3A/model_final_v3A.pth filter=lfs diff=lfs merge=lfs -text
+glyph_classification/models/v1/resnet18_v1_stratified_10ep_NOflip.pth filter=lfs diff=lfs merge=lfs -text
+glyph_classification/models/v2/resnet18_v2_frozenSplit_min6_12ep_rot10.pth filter=lfs diff=lfs merge=lfs -text
+glyph_classification/classifier_v3/output/resnet18_v3_museum_aug_sqrtweighted_best_val_loss.pth filter=lfs diff=lfs merge=lfs -text
