@@ -1,0 +1,2556 @@
+{
+    "A1": {
+        "name": "Seated Man",
+        "image_path": "glyph_images/A1.png",
+        "category": "Human Beings, Male",
+        "common_meanings": [
+            "man",
+            "person/people",
+            "companion"
+        ],
+        "common_words": [
+            {
+                "word": "rmṯ",
+                "rough_pronunciation": "remetch",
+                "meaning": "person"
+            },
+            {
+                "word": "zj",
+                "rough_pronunciation": "zee",
+                "meaning": "man"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like the 'ee' in 'see'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a man, person, or companion."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Often appears at the end of words about men or people to show what the word means, but is not pronounced."
+                }
+            ],
+            "did_you_know": "This is one of the most versatile hieroglyphs in Egyptian writing because it can be used in three different ways."
+        },
+        "advanced": {
+            "phonetic_values": ["j"],
+            "functions": [
+                "**Determinative** for 'man'",
+                "**Ideogram** for 'man' or 'companion'",
+                "Used after a noun in first-person singular pronouns to indicate possession or ownership (similar to 'my' in English)."
+            ],
+            "notes": ""
+        }
+    },
+    "A40": {
+        "name": "Seated God",
+        "image_path": "glyph_images/A40.png",
+        "category": "Human Beings, Male",
+        "common_meanings": [
+            "god",
+            "deity",
+            "divine being"
+        ],
+        "common_words": [
+            {
+                "word": "nṯr",
+                "rough_pronunciation": "netjer",
+                "meaning": "god"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Often appears at the end of words related to gods or divine beings to show what the word means, but is not pronounced."
+                }
+            ],
+            "did_you_know": "Ancient Egyptians believed their kings were closely connected to the gods, so this sign can also appear in words related to kings."
+        },
+        "advanced": {
+            "phonetic_values": [],
+            "functions": ["**Determinative** for 'god' or 'king'"],
+            "notes": "Variant of A1 in first-person pronouns when the speaker is a god or the king."
+        }
+    },
+    "Aa1": {
+        "name": "Bread Loaf",
+        "image_path": "glyph_images/Aa1.png",
+        "category": "Unclassified",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ᶜnḫ",
+                "rough_pronunciation": "ankh",
+                "meaning": "life"
+            },
+            {
+                "word": "ḫt",
+                "rough_pronunciation": "khet",
+                "meaning": "thing, property"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to 'kh' in English"
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can appear at the end of words related to illness or poor health to show what the word means, but is not pronounced."
+                }
+            ],
+            "did_you_know": "This is one of four different 'h' sounds that ancient Egyptian had."
+        },
+        "advanced": {
+            "phonetic_values": ["ḫ"],
+            "functions": ["**Determinative** for 'swelling' or 'unhealthy'"],
+            "notes": "This glyph can appear with or without the inner details."
+        }
+    },
+    "D2": {
+        "name": "Face",
+        "image_path": "glyph_images/D2.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḥr",
+                "rough_pronunciation": "hair",
+                "meaning": "face"
+            },
+            {
+                "word": "ḥrj-dp",
+                "rough_pronunciation": "hair-eeh-dep",
+                "meaning": "'chief' or 'nomarch' (nome-governor)"
+            },
+            {
+                "word": "ḥrt",
+                "rough_pronunciation": "hair-et",
+                "meaning": "sky, upland"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Pronounced like the English word 'hair'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'face'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["ḥr"],
+            "functions": [
+                "**Ideogram** for 'face'",
+                "When used between two nouns and immediately preceded by Z1 (stroke), can be roughly translated to 'and' in English to connect two things."
+            ],
+            "notes": ""
+        }
+    },
+    "D4": {
+        "name": "Eye",
+        "image_path": "glyph_images/D4.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "mȝȝ",
+                "rough_pronunciation": "ma-ah",
+                "meaning": "see"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the word 'ear' in English."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent an eye."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can appear at the end of words related to seeing or vision to show what the word means, but is not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["jr"],
+            "functions": ["**Determinative** for actions associated with the eye",
+            "**Ideogram** for *jrt* 'eye'"
+        ],
+            "notes": ""
+        }
+    },
+    "D21": {
+        "name": "Mouth",
+        "image_path": "glyph_images/D21.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "wr",
+                "rough_pronunciation": "oor",
+                "meaning": "great"
+            },
+            {
+                "word": "rᶜ",
+                "rough_pronunciation": "rah",
+                "meaning": "sun, day, (can also refer to the King of the Gods and creator of the universe in ancient Egyptian mythology)"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English 'r'"
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'mouth' or 'speech'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["r"],
+            "functions": ["**Ideogram** for 'mouth'",
+            "Preposition *r* ('with respect to'), used to form the comparative between two adjectives ('more ... than')"
+        ],
+            "notes": ""
+        }
+    },
+    "D28": {
+        "name": "Two Arms",
+        "image_path": "glyph_images/D28.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [
+            "energy"
+        ],
+        "common_words": [
+            {
+                "word": "kȝw",
+                "rough_pronunciation": "kah-ooh",
+                "meaning": "fruit, fruits"
+            },
+            {
+                "word": "kȝwt",
+                "rough_pronunciation": "kah-oot",
+                "meaning": "work, works"
+            },
+            {
+                "word": "skȝ",
+                "rough_pronunciation": "sek-ah",
+                "meaning": "plow"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'kah' in English."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "This hieroglyph depicts 'ka' the ancient Egyptian idea of energy provided from food and drink."
+                }
+            ],
+            "did_you_know": "Ancient Egyptians would present their deceased with food and drinks to provide them with 'ka', energy that the deceased's spirit could make use of."
+        },
+        "advanced": {
+            "phonetic_values": ["kȝ"],
+            "functions": [
+                "**Ideogram** for 'ka', the ancient Egyptian iddea of energy."
+            ],
+            "notes": ""
+        }
+    },
+    "D35": {
+        "name": "Gesture of Negation",
+        "image_path": "glyph_images/D35.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [
+            "not",
+            "no"
+        ],
+        "common_words": [
+            {
+                "word": "nn",
+                "rough_pronunciation": "nen",
+                "meaning": "not, no, without"
+            }
+        ],
+        "basic": {
+            "quick_summary": "This is one of the most common ways to indicate negation in ancient Egptian.",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent the sounds 'nee' or 'ee-ooh' depending on the context."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'not'."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can be used at the end of words to indicate negation, but is not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": [
+                "nj",
+                "n",
+                "jw",
+                "jwt"
+        ],
+            "functions": [
+                "**Determinative** for negation",
+                "**Ideogram** for 'not"
+            ],
+            "notes": ""
+        }
+    },
+    "D36": {
+        "name": "Forearm",
+        "image_path": "glyph_images/D36.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ᶜnḫ",
+                "rough_pronunciation": "ankh",
+                "meaning": "life"
+            },
+            {
+                "word": "ᶜȝ",
+                "rough_pronunciation": "a-ah",
+                "meaning": "donkey"
+            },
+            {
+                "word": "ḫnᶜ",
+                "rough_pronunciation": "khena",
+                "meaning": "used to connect two things in a sentence, can be roughly translated to 'and' in English"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 'a'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'arm' or 'hand'"
+                }
+            ],
+            "did_you_know": "This is one of many 'a' sounds that ancient Egyptian had."
+        },
+        "advanced": {
+            "phonetic_values": ["ᶜ"],
+            "functions": ["**Ideogram** for 'arm' or 'hand'"],
+            "notes": "For simplicity this glyph has the sound 'a' but in reality it had a unique sound that doesn't exist in modern languages."
+        }
+    },
+    "D37": {
+        "name": "Forearm with Bread Mold",
+        "image_path": "glyph_images/D37.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "rdj",
+                "rough_pronunciation": "red-ee",
+                "meaning": "give, put, appoint, assign"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'dee' in English."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["dj"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "D46": {
+        "name": "Hand",
+        "image_path": "glyph_images/D46.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḏrt",
+                "rough_pronunciation": "djeret",
+                "meaning": "hand"
+            },
+            {
+                "word": "ȝpd",
+                "rough_pronunciation": "ah-ped",
+                "meaning": "bird"
+            },
+            {
+                "word": "dpt",
+                "rough_pronunciation": "depet",
+                "meaning": "boat"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to 'd' in English"
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a hand."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["d"],
+            "functions": ["**Ideogram** for *ḏrt* hand"],
+            "notes": ""
+        }
+    },
+    "D54": {
+        "name": "Walking Legs",
+        "image_path": "glyph_images/D54.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "zj",
+                "rough_pronunciation": "zee",
+                "meaning": "go"
+            },
+            {
+                "word": "zḫz",
+                "rough_pronunciation": "zekhez",
+                "meaning": "run"
+            },
+            {
+                "word": "ḥn",
+                "rough_pronunciation": "hen",
+                "meaning": "rush, hurry, attack"
+            }
+        ],
+        "basic": {
+            "quick_summary": "This glyph is almost exclusively used in words that have to do with motion.",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Has a interesting pronunciation that is something like 'ee-ooh'."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can appear at the end of words related to motion to clarify what the word means, but is not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["jw"],
+            "functions": ["**Determinative** for 'motion'."],
+            "notes": "This glyph is almost exclusively used in words that have to do with motion."
+        }
+    },
+    "D58": {
+        "name": "Foot",
+        "image_path": "glyph_images/D58.png",
+        "category": "Parts of the Human Body",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "bjk",
+                "rough_pronunciation": "beek",
+                "meaning": "falcon"
+            },
+            {
+                "word": "sbȝ",
+                "rough_pronunciation": "seba",
+                "meaning": "star"
+            },
+            {
+                "word": "sbḫt",
+                "rough_pronunciation": "seb-ekh-et",
+                "meaning": "barrier"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "This hieroglyph can be pronounced like the English letter 'b'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation":"Can be used to mean 'foot'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["b (most common)", "bw"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "E34": {
+        "name": "Hare",
+        "image_path": "glyph_images/E34.png",
+        "category": "Mammals",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "wnwt",
+                "rough_pronunciation": "oon-oot",
+                "meaning": "hour"
+            },
+            {
+                "word": "wnn",
+                "rough_pronunciation": "ooh-nen",
+                "meaning": "exist, be"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like the 'oon' in 'monsoon'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a hare."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["wn"],
+            "functions": ["**Ideogram** for 'hare'."],
+            "notes": ""
+        }
+    },
+    "F31": {
+        "name": "Three Fox-Skins",
+        "image_path": "glyph_images/F31.png",
+        "category": "Parts of Mammals",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ms",
+                "rough_pronunciation": "mess",
+                "meaning": "child, offspring"
+            },
+            {
+                "word": "mskj",
+                "rough_pronunciation": "mes-eh-key",
+                "meaning": "gossip"
+            },
+            {
+                "word": "msdj",
+                "rough_pronunciation": "mes-eh-dee",
+                "meaning": "hate"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Pronounced like the English word 'mess'."
+                }
+            ],
+            "did_you_know": "The most common use of this hieroglyph is to mean 'child' or 'offspring'."
+        },
+        "advanced": {
+            "phonetic_values": ["ms"],
+            "functions": [],
+            "notes": "The most common use of this hieroglyph is to mean 'child' or 'offspring'."
+        }
+    },
+    "F32": {
+        "name": "Animal's Belly and Udder",
+        "image_path": "glyph_images/F32.png",
+        "category": "Parts of Mammals",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ẖrd",
+                "rough_pronunciation": "kher-ed",
+                "meaning": "child, boy"
+            },
+            {
+                "word": "ẖzj",
+                "rough_pronunciation": "khez-ee",
+                "meaning": "wretched, miserable, vile"
+            }
+        ],
+        "basic": {
+            "quick_summary": "Of the four different 'h' sounds that ancient Egyptian had, this glyph is the deepest.",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a deep 'kh' sound."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can be used to mean 'belly' or 'body'."
+                }
+            ],
+            "did_you_know": "Egyptologists use special letters such as ẖ to distinguish Egyptian sounds that don't exist in English."
+        },
+        "advanced": {
+            "phonetic_values": ["ẖ"],
+            "functions": ["**Ideogram** in *ẖt* 'belly, body'"],
+            "notes": ""
+        }
+    },
+    "F34": {
+        "name": "Heart",
+        "image_path": "glyph_images/F34.png",
+        "category": "Parts of Mammals",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "jb",
+                "rough_pronunciation": "eeb",
+                "meaning": "heart, mind"
+            },
+            {
+                "word": "jmj-jb",
+                "rough_pronunciation": "imi-eeb",
+                "meaning": "confidant"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'eeb' in English."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can be used to represent a heart."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can be used at the end of the words related to the heart, but is not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["jb"],
+            "functions": ["**Ideogram** for *jb* 'heart' or 'companion'",
+            "**Determinative** in *ḥȝtj* 'heart'"],
+            "notes": ""
+        }
+    },
+    "F35": {
+        "name": "Heart and Windpipe",
+        "image_path": "glyph_images/F35.png",
+        "category": "Parts of Mammals",
+        "common_meanings": [
+            "good",
+            "beautiful",
+            "perfect"
+        ],
+        "common_words": [],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound often pronounced 'neh-fer'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a heart and windpipe."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["nfr"],
+            "functions": [
+                "**Ideogram** for 'heart and windpipe'",
+                "Can function as an adjective when written after a noun or pronoun.",
+                "Can also stand on its own, in which case it can mean 'a good thing' or 'a beautiful one'."
+            ],
+            "notes": "Determinatives are often added to clarify which meaning is intended when this word is used."
+        }
+    },
+    "F39": {
+        "name": "Spine and Spinal Cord",
+        "image_path": "glyph_images/F39.png",
+        "category": "Parts of Mammals",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "jmȝḫ",
+                "rough_pronunciation": "eem-akh",
+                "meaning": "worth/honor or spinal cord"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the words for 'worth/honor' or for 'spinal cord'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": [],
+            "functions": [
+                "Can be a **determinative** in jmȝḫ 'worth, honor', also an **ideogram** for same.",
+                "Can be a **determinative** in jmȝḫ 'spinal cord', also an **ideogram** for same."
+            ],
+            "notes": ""
+        }
+    },
+    "G1": {
+        "name": "Egyptian Vulture",
+        "image_path": "glyph_images/G1.png",
+        "category": "Birds",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ȝpd",
+                "rough_pronunciation": "ah-ped",
+                "meaning": "bird"
+            },
+            {
+                "word": "zȝ",
+                "rough_pronunciation": "zah",
+                "meaning": "son"
+            },
+            {
+                "word": "sḫȝ",
+                "rough_pronunciation": "sekh-ah",
+                "meaning": "think"
+            },
+            {
+                "word": "tȝ",
+                "rough_pronunciation": "tah",
+                "meaning": "land"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 'a'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["ȝ"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "G17": {
+        "name": "Owl",
+        "image_path": "glyph_images/G17.png",
+        "category": "Birds",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "mj",
+                "rough_pronunciation": "mee",
+                "meaning": "who?, what?"
+            },
+            {
+                "word": "mȝᶜ",
+                "rough_pronunciation": "mah-ah",
+                "meaning": "true, proper, correct"
+            },
+            {
+                "word": "mjkȝ",
+                "rough_pronunciation": "mee-kah",
+                "meaning": "brave"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 'm'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation":"Can be used to represent a owl."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["m"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "G36": {
+        "name": "Forktailed Swallow",
+        "image_path": "glyph_images/G36.png",
+        "category": "Birds",
+        "common_meanings": [
+            "great"
+        ],
+        "common_words": [
+            {
+                "word": "wr",
+                "rough_pronunciation": "oor",
+                "meaning": "great, elder, important"
+            },
+            {
+                "word": "wrd",
+                "rough_pronunciation": "oor-ed",
+                "meaning": "tire, die"
+            },
+            {
+                "word": "wršy",
+                "rough_pronunciation": "oor-eshy",
+                "meaning": "watchman"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'oor' in English."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["wr"],
+            "functions": [
+                "**Determinative** for *mnt* 'swallow'."
+            ],
+            "notes": "Distinguishable from other birds by its forked tail."
+        }
+    },
+    "G39": {
+        "name": "Pintail Duck",
+        "image_path": "glyph_images/G39.png",
+        "category": "Birds",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "zȝ",
+                "rough_pronunciation": "zah",
+                "meaning": "son"
+            },
+            {
+                "word": "zȝt",
+                "rough_pronunciation": "zaht",
+                "meaning": "daughter"
+            }
+        ],
+        "basic": {
+            "quick_summary": "Distinguishable from other birds by its pointed tail.",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'zah' in English."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": " Used at the end of the word for pintail duck, but not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["zȝ"],
+            "functions": [
+                "**Determinative** in *zr(t)* or *zj(t)* 'pintail duck'"
+            ],
+            "notes": ""
+        }
+    },
+    "G43": {
+        "name": "Quail Chick",
+        "image_path": "glyph_images/G43.png",
+        "category": "Birds",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "wnmw",
+                "rough_pronunciation": "ooh-nem-ooh",
+                "meaning": "food"
+            } ,
+            {
+                "word": "rswt",
+                "rough_pronunciation": "res-oot",
+                "meaning": "dream"
+            },
+            {
+                "word": "ḥbsw",
+                "rough_pronunciation": "heb-es-ooh",
+                "meaning": "clothing, clothes"
+            }
+        ],
+        "basic": {
+            "quick_summary": "This glyph is one of the most common ways of indicating the plural in ancient Egyptian.",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to 'ooh' in English."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can be used to represent a 'quail chick'."
+                },
+                {
+                    "type": "Plural marker",
+                    "explanation": "Can be placed near the end of a word to show that it refers to more than one thing."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["w"],
+            "functions": [
+                "**Ideogram** for 'quail chick'",
+                "Put at the end of a word (still before any determinatives) to indicate the plural."
+            ],
+            "notes": "This glyph may be ommited in writing and Z2 (three strokes) is added at the end of a word instead."
+        }
+    },
+    "I9": {
+        "name": "Horned Viper",
+        "image_path": "glyph_images/I9.png",
+        "category": "Reptiles, Amphibians and Their Parts",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "nfr",
+                "rough_pronunciation": "neh-fer",
+                "meaning": "perfect, good, beautiful"
+            },
+            {
+                "word": "fnṯ",
+                "rough_pronunciation": "fen-etch",
+                "meaning": "worm, maggot"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English 'f'."
+                },
+                {
+                    "type": "Pronoun",
+                    "explanation": "When placed at the end of a word, it can usually mean 'his' or 'its' to show possession."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["f"],
+            "functions": ["3rd-person masculine singular suffix pronoun that can mean 'he', 'him', 'his', 'it', or 'its' depending on context"],
+            "notes": "Suffix pronouns always go at the very end of a word."
+        }
+    },
+    "I10": {
+        "name": "Cobra",
+        "image_path": "glyph_images/I10.png",
+        "category": "Reptiles, Amphibians and Their Parts",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḏt",
+                "rough_pronunciation": "de-jet",
+                "meaning": "body, self"
+            },
+            {
+                "word": "ḏfȝw",
+                "rough_pronunciation": "de-jef-ah-ooh",
+                "meaning": "food"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Sounds like 'deg' in 'degenerate'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["ḏ"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "M17": {
+        "name": "Reed",
+        "image_path": "glyph_images/M17.png",
+        "category": "Vegetation",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "jtj",
+                "rough_pronunciation": "eeh-tee",
+                "meaning": "father"
+            },
+            {
+                "word": "jz",
+                "rough_pronunciation": "ease",
+                "meaning": "tomb"
+            },
+            {
+                "word": "jmn",
+                "rough_pronunciation": "Amun",
+                "meaning": "Amun (god of air, creation, and fertility) "
+            },
+            {
+                "word": "jqr",
+                "rough_pronunciation": "eeh-qer",
+                "meaning": "be able, accomplished, excellent, successful"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like the 'ee' in 'see'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a reed, a type of grass that is common in Egypt."
+                },
+                {
+                    "type": "Pronoun",
+                    "explanation": "When placed at the very end of a word, it can usually mean 'my' to show possession."
+                }
+            ],
+            "did_you_know": "Ancient Egyptians made many everyday objects from reeds, including baskets, boats, clothes, and even writing pens."
+        },
+        "advanced": {
+            "phonetic_values": [
+                "j",
+                "y (when doubled)"
+            ],
+            "functions": [
+                "1st-person singular suffix pronoun that can mean 'I', 'me', or 'my' depending on context",
+                "**Ideogram** for 'reed'",
+                "Occasional variant of A1 (Seated man)"
+            ],
+            "notes": ""
+        }
+    },
+    "M23": {
+        "name": "Sedge",
+        "image_path": "glyph_images/M23.png",
+        "category": "Vegetation",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "nswt",
+                "rough_pronunciation": "nes-oot",
+                "meaning": "king"
+            },
+            {
+                "word": "zȝ-nswt",
+                "rough_pronunciation": "zah nes-oot",
+                "meaning": "prince (son of the king)"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "Often used to indicate that someone is royalty.",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like the 'sou' in 'soup."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the Egyptian sedge (more commonly known as papyrus)."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["sw"],
+            "functions": ["**Ideogram** for 'sedge' (more commonly known as papyrus)"],
+            "notes": ""
+        }
+    },
+    "M39": {
+        "name": "Basket of Plants",
+        "image_path": "glyph_images/M39.png",
+        "category": "Vegetation",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "",
+                "rough_pronunciation": "",
+                "meaning": ""
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Used at the end of words related to vegetables, but not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": [],
+            "functions": ["**Determinative** for 'vegetables'"],
+            "notes": ""
+        }
+    },
+    "N17": {
+        "name": "Strip of Land",
+        "image_path": "glyph_images/N17.png",
+        "category": "Sky, Earth, Water",
+        "common_meanings": [
+            "land",
+            "earth",
+            "world"
+        ],
+        "common_words": [
+            {
+                "word": "ḏt",
+                "rough_pronunciation": "dej-et",
+                "meaning": "'estate' or 'eternity'"
+            },
+            {
+                "word": "tȝwj",
+                "rough_pronunciation": "tah-weeh",
+                "meaning": "'Two Lands' (Egypt)"
+            }
+        ],
+        "basic": {
+            "quick_summary": "This sign can appear with or without small dots beneath it representing grains of sand.",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound roughly pronounced 'tah'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'land' or 'earth'."
+                }
+            ],
+            "did_you_know": "Ancient Egypt had two regions: Upper Egypt in the south and Lower Egypt in the north. Together, they were called the 'Two Lands' (tȝwj)."
+        },
+        "advanced": {
+            "phonetic_values": ["tȝ"],
+            "functions": [
+                "**Ideogram** for *tȝ* 'land, earth, world'",
+                "**Determinative** in *ḏt* 'estate, eternity'"
+            ],
+            "notes": "Distinguishable from N18 only by its thinner shape."
+        }
+    },
+    "N25": {
+        "name": "Mountain Range",
+        "image_path": "glyph_images/N25.png",
+        "category": "Sky, Earth, Water",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ẖrj-nṯr",
+                "rough_pronunciation": "khor-eeh net-jer",
+                "meaning": "necropolis (an elaborate 'city of the dead' designed as a burial site)"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'desert cliffs' and 'foreign land'."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can be used at the end of words related to the 'desert' or 'foreign lands', but not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": [],
+            "functions": [
+                "**Ideogram** for *ḫȝst* 'desert cliffs', 'foreign land'",
+                "**Determinative** for 'desert' and 'foreign land'"
+            ],
+            "notes": ""
+        }
+    },
+    "N26": {
+        "name": "Mountain",
+        "image_path": "glyph_images/N26.png",
+        "category": "Sky, Earth, Water",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḏwj",
+                "rough_pronunciation": "de-joo-eeh",
+                "meaning": "be evil or bad"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound often pronounced 'de-joo'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a mountain."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["ḏw"],
+            "functions": ["**Ideogram** for 'mountain'"],
+            "notes": ""
+        }
+    },
+    "N29": {
+        "name": "Sandy Slope",
+        "image_path": "glyph_images/N29.png",
+        "category": "Sky, Earth, Water",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ᶜrq",
+                "rough_pronunciation": "ah-req",
+                "meaning": "bend"
+            },
+            {
+                "word": "rqj",
+                "rough_pronunciation": "req-eeh",
+                "meaning": "revolt, oppose"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 'q'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["q"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "N35": {
+        "name": "Ripple of Water",
+        "image_path": "glyph_images/N35.png",
+        "category": "Sky, Earth, Water",
+        "common_meanings": [
+            "to",
+            "for",
+            "of"
+        ],
+        "common_words": [
+            {
+                "word": "sn",
+                "rough_pronunciation": "sen",
+                "meaning": "brother"
+            },
+            {
+                "word": "njs",
+                "rough_pronunciation": "knees",
+                "meaning": "to call or summon"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 'n'."
+                },
+                {
+                    "type": "Pronoun",
+                    "explanation": "When placed at the very end of a word, it can mean 'our' to show possession."
+                },
+                {
+                    "type": "Preposition",
+                    "explanation": "Can mean 'to,' 'for,' or 'of,' depending on the sentence."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["n"],
+            "functions": [
+                "When  used between two words, can often be translated to 'of' to show possession.",
+                "Can also indicate possession when placed at the very end of a word. Can be translated to mean 'our'. "
+            ],
+            "notes": ""
+        }
+    },
+    "N37": {
+        "name": "Depression",
+        "image_path": "glyph_images/N37.png",
+        "category": "Sky, Earth, Water",
+        "common_meanings": ["lake", "basin", "depression"],
+        "common_words": [
+            {
+                "word": "šᶜ",
+                "rough_pronunciation": "shah",
+                "meaning": "sand"
+            },
+            {
+                "word": "šmw",
+                "rough_pronunciation": "shem-ooh",
+                "meaning": "harvest"
+            },
+            {
+                "word": "špt",
+                "rough_pronunciation": "shep-et",
+                "meaning": "get angry"
+            },
+            {
+                "word": "šfj",
+                "rough_pronunciation": "shef-eeh",
+                "meaning": "respect"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "This hieroglyph is most often used to represent a sound like 'sh' in English."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a basin, lake, or depression."
+                }
+            ],
+            "did_you_know": "This glyph was also used to write the ancient Egyptian unit of land area called an aroura."
+        },
+        "advanced": {
+            "phonetic_values": ["š"],
+            "functions": [
+                "**Ideogram** for 'basin', 'lake' or 'depression'",
+                "**Ideogram** and **Determinative** for *sṯȝ* 'aroura', the standard measurement of area in ancient Egypt (equal to 0.68 acre)."
+        ],
+            "notes": ""
+        }
+    },
+    "O1": {
+        "name": "Schematic House Plan",
+        "image_path": "glyph_images/O1.png",
+        "category": "Structures and Their Parts",
+        "common_meanings": ["house"],
+        "common_words": [
+            {
+                "word": "pr",
+                "rough_pronunciation": "per",
+                "meaning": "house"
+            },
+            {
+                "word": "ḥwt-ntr",
+                "rough_pronunciation": "hoot neter",
+                "meaning": "temple (god's enclosure)"
+            },
+            {
+                "word": "pr-nswt",
+                "rough_pronunciation": "per nes-oot",
+                "meaning": "palace (king's house)"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to 'per' in English."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a house."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["pr"],
+            "functions": [
+                "**Ideogram** for *pr* 'house'",
+                "**Determinative** for 'building' or 'place'"
+            ],
+            "notes": ""
+        }
+    },
+    "O4": {
+        "name": "Reed Shelter",
+        "image_path": "glyph_images/O4.png",
+        "category": "Structures and Their Parts",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "hȝj",
+                "rough_pronunciation": "haj",
+                "meaning": "go down, head"
+            },
+            {
+                "word": "hp",
+                "rough_pronunciation": "hep",
+                "meaning": "law, custom"
+            },
+            {
+                "word": "hrw",
+                "rough_pronunciation": "hor-ooh",
+                "meaning": "daytime"
+            }   
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 'h'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a courtyard."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["h"],
+            "functions": ["**Ideogram** for 'courtyard'."],
+            "notes": ""
+        }
+    },
+    "O34": {
+        "name": "Doorbolt",
+        "image_path": "glyph_images/O34.png",
+        "category": "Structures and Their Parts",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "zj",
+                "rough_pronunciation": "zee",
+                "meaning": "man"
+            },
+            {
+                "word": "zwk",
+                "rough_pronunciation": "zoor",
+                "meaning": "drink"
+            },
+            {
+                "word": "zḫz",
+                "rough_pronunciation": "zekhez",
+                "meaning": "run"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 'z'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a doorbolt."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["z"],
+            "functions": ["**Ideogram** for *z* 'doorbolt'"],
+            "notes": ""
+        }
+    },
+    "O49": {
+        "name": "Area with Intersection",
+        "image_path": "glyph_images/O49.png",
+        "category": "Structures and Their Parts",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "njwt",
+                "rough_pronunciation": "knee-wet",
+                "meaning": "town"
+            },
+            {
+                "word": "ḥqȝ-ḥwt",
+                "rough_pronunciation": "hek-ah hoot",
+                "meaning": "mayor (ruler of the enclosure)"
+            },
+            {
+                "word":"ẖnw",
+                "rough_pronunciation": "khen-ooh",
+                "meaning": "interior, home, capital city"
+            },
+            {
+                "word": "spȝt",
+                "rough_pronunciation": "spaht",
+                "meaning": "estate or farm"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent a town."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Used at the end of words related to towns or settlements, but not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": [],
+            "functions": [
+                "**Ideogram** for *njwt* 'town'",
+                "**Determinative** for 'town' or 'settlement'"
+            ],
+            "notes": ""
+        }
+    },
+    "Q1": {
+        "name": "Seat",
+        "image_path": "glyph_images/Q1.png",
+        "category": "Domestic and Funerary Furniture",
+        "common_meanings": [
+            "place",
+            "seat"
+        ],
+        "common_words": [
+            {
+                "word": "jst",
+                "rough_pronunciation": "eeh-set",
+                "meaning": "place, seat, throne"
+            },
+            {
+                "word": "jsjr",
+                "rough_pronunciation": "eeh-seer",
+                "meaning": "Osiris (god of the underworld and afterlife)"
+            },
+            {
+                "word": "jst",
+                "rough_pronunciation": "eeh-set",
+                "meaning": "Isis (goddess of magic, motherhood, healing, and protection)"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "In some words this glyph can represent an 'st' sound and in others it can sound like the English word 'it'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'seat' or 'place'."
+                }
+            ],
+            "did_you_know": "Some ancient Egyptian hieroglyphs can have more than one pronounciation depending on how they are used in a sentence."
+        },
+        "advanced": {
+            "phonetic_values": ["st",
+            "js",
+            "ḥtm"
+        ],
+            "functions": ["**Ideogram** for *jst* 'seat' or 'place'"],
+            "notes": "The first two phonetic values are more commonly used than the third."
+        }
+    },
+    "Q3": {
+        "name": "Stool",
+        "image_path": "glyph_images/Q3.png",
+        "category": "Domestic and Funerary Furniture",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "pt",
+                "rough_pronunciation": "pet",
+                "meaning": "sky"
+            },
+            {
+                "word": "ptr",
+                "rough_pronunciation": "peh-ter",
+                "meaning": "who?, what? (usually stands first in a sentence)"
+            },
+            {
+                "word": "ḥtpt",
+                "rough_pronunciation": "ho-tep-et",
+                "meaning": "offerings"
+            },
+            {
+                "word": "wpwt",
+                "rough_pronunciation": "oop-oot",
+                "meaning": "assignment, mission, message"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 'p'."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'stool'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["p"],
+            "functions": [
+        "Very commonly used in masculine singular demonstrative pronouns that are translated to 'this', 'that', 'these', or 'those' in English. There are multiple different forms to be aware of:\n\n    — **pn** \n\n    — **pf** (used to contrast with the -n form) \n\n    — **pw** (mostly used in religious texts)",
+        "**Ideogram** for 'stool'"
+    ],
+            "notes": ""
+        }
+    },
+    "R4": {
+        "name": "Bread Loaf on Mat",
+        "image_path": "glyph_images/R4.png",
+        "category": "Temple Furniture and Sacred Emblems",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḥtp-dj-nswt",
+                "rough_pronunciation": "hotep dee nes-oot",
+                "meaning": "royal offering"
+            },
+            {
+                "word": "ḥtp",
+                "rough_pronunciation": "hotep",
+                "meaning": "be calm, content"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'ho-tep' in English."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["ḥtp"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "R8": {
+        "name": "Flag on Pole",
+        "image_path": "glyph_images/R8.png",
+        "category": "Temple Furniture and Sacred Emblems",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "nṯr",
+                "rough_pronunciation": "net-jer",
+                "meaning": "god"
+            },
+            {
+                "word": "ẖrj-nṯr",
+                "rough_pronunciation": "khor-eeh net-jer",
+                "meaning": "necropolis (an elaborate 'city of the dead' designed as a burial site)"
+            },
+            {
+                "word": "nṯrj",
+                "rough_pronunciation": "net-jer-eeh",
+                "meaning": "divine"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'god'."
+                }
+            ],
+            "did_you_know": "This glyph is almost exclusively used in the word for 'god' or for things to do with divine beings."
+        },
+        "advanced": {
+            "phonetic_values": ["nṯr"],
+            "functions": ["**Ideogram** for 'god'"],
+            "notes": ""
+        }
+    },
+    "S29": {
+        "name": "Folded Cloth",
+        "image_path": "glyph_images/S29.png",
+        "category": "Regalia and Clothing",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḥns",
+                "rough_pronunciation": "hen-es",
+                "meaning": "narrow"
+            },
+            {
+                "word": "sḫr",
+                "rough_pronunciation": "sekh-er",
+                "meaning": "plan"
+            },
+            {
+                "word": "ms",
+                "rough_pronunciation": "mess",
+                "meaning": "child"
+            },
+            {
+                "word": "šsȝj",
+                "rough_pronunciation": "shes-ah-eeh",
+                "meaning": "plead, pray"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 's'."
+                },
+                {
+                    "type": "Pronoun",
+                    "explanation": "When placed at the very end of a word, it can mean 'her' or 'its' to show possession."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["s"],
+            "functions": [
+                "3rd-person feminine singular suffix pronoun that can mean 'she', 'her', 'it', or 'its' depending on context"],
+            "notes": ""
+        }
+    },
+    "S34": {
+        "name": "Sandal Strap",
+        "image_path": "glyph_images/S34.png",
+        "category": "Regalia and Clothing",
+        "common_meanings": [
+            "life"
+        ],
+        "common_words": [
+            {
+                "word": "ᶜnḫ",
+                "rough_pronunciation": "ankh",
+                "meaning": "live, living person"
+            },
+            {
+                "word": "ᶜnḫw",
+                "rough_pronunciation": "ankh-ooh",
+                "meaning": "life"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'ankh' in English."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the words for 'sandal strap' and 'mirror'"
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["ᶜnḫ"],
+            "functions": [
+                "**Ideogram** for *ᶜnḫ* 'sandal strap' and 'mirror'"],
+            "notes": ""
+        }
+    },
+    "T22": {
+        "name": "Arrowhead and Spear",
+        "image_path": "glyph_images/T22.png",
+        "category": "Warfare, Hunting, Slaughter",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "sn",
+                "rough_pronunciation": "sen",
+                "meaning": "brother, sibling"
+            },
+            {
+                "word": "snt",
+                "rough_pronunciation": "sen-et",
+                "meaning": "sister"
+            },
+            {
+                "word": "snnw",
+                "rough_pronunciation": "sen-en-ooh",
+                "meaning": "companion, equal"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to 'sen' in English."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the number 30."
+                }
+            ],
+            "did_you_know": "Ancient Egyptian numbers were sometimes spelled out fully in hieroglyphs, but more often they were represented with numerals."
+        },
+        "advanced": {
+            "phonetic_values": ["sn"],
+            "functions": [
+                "**Ideogram** for *mᶜbȝ* '30'",
+                "**Determinative** in *mᶜbȝ* 'spear'"
+            ],
+            "notes": ""
+        }
+    },
+    "U1": {
+        "name": "Sickle",
+        "image_path": "glyph_images/U1.png",
+        "category": "Agriculture, Crafts, Professions",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "mȝᶜt",
+                "rough_pronunciation": "mah-aht",
+                "meaning": "Maat was the goddess who represented truth, justice, and order in ancient Egypt."
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to 'mah' in English."
+                },
+                {
+                    "type": "Meaning sign",   
+                     "explanation": "Can appear at the end of words related to harvesting or things that are curved or bent, but is not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["mȝ"],
+            "functions": ["**Determinative** for 'reap' or 'crooked"],
+            "notes": ""
+        }
+    },
+    "U6": {
+        "name": "Hoe",
+        "image_path": "glyph_images/U6.png",
+        "category": "Agriculture, Crafts, Professions",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "mrḥt",
+                "rough_pronunciation": "mer-eht",
+                "meaning": "oil, ointment"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'mer' in English."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can appear at the end of words related to cutting or chopping, but is not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["mr"],
+            "functions": ["**Determinative** for 'hack'"],
+            "notes": ""
+        }
+    },
+    "U7": {
+        "name": "Hoe",
+        "image_path": "glyph_images/U7.png",
+        "category": "Agriculture, Crafts, Professions",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "mrj",
+                "rough_pronunciation": "mer-eeh",
+                "meaning": "want, desire, like"
+            },
+            {
+                "word": "mrwt",
+                "rough_pronunciation": "mer-oot",
+                "meaning": "love"
+            },
+            {
+                "word": "mryt",
+                "rough_pronunciation": "mer-eeh-yet",
+                "meaning": "riverbank"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'mer' in English."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can appear at the end of words related to cutting or chopping, but is not pronounced."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["mr"],
+            "functions": ["**Determinative** for 'hack'"],
+            "notes": "This glyph is a variant of U6 and is used in the exact same ways."
+        }
+    },
+    "V4": {
+        "name": "Lasso",
+        "image_path": "glyph_images/V4.png",
+        "category": "Rope, Baskets, and Cloth",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "wȝt",
+                "rough_pronunciation": "waht",
+                "meaning": "road, path, way"
+            },
+            {
+                "word": "ᶜwȝy",
+                "rough_pronunciation": "aw-aht",
+                "meaning": "robber"
+            },
+            {
+                "word": "wȝgj",
+                "rough_pronunciation": "wah-gee",
+                "meaning": "wave"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like the 'wa' in 'water."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["wȝ"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "V13": {
+        "name": "Hobble",
+        "image_path": "glyph_images/V13.png",
+        "category": "Rope, Baskets, and Cloth",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "zfṯ",
+                "rough_pronunciation": "zef-et-ej",
+                "meaning": "cut up, butcher"
+            },
+            {
+                "word": "ṯnj",
+                "rough_pronunciation": "tej-en-eeh",
+                "meaning": "where?"
+            },
+            {
+                "word": "ṯzj",
+                "rough_pronunciation": "tej-ez-eeh",
+                "meaning": "pick up, lift"
+            },
+            {
+                "word": "ṯn",
+                "rough_pronunciation": "tej-en",
+                "meaning": "When attaced to the very end of a word, this is a pronoun that can mean 'you' or 'your'."
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'tej' in English."
+                },
+                {
+                    "type": "Pronoun",
+                    "explanation": "When placed at the end of a word, it can usually mean 'you' or 'your' to show possession."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["ṯ", "t (less common)"],
+            "functions": ["2nd-person feminine singular pronoun that can mean 'you' or 'your' depending on context."],
+            "notes": "Sometimes used instead of X1 'bread loaf'"
+        }
+    },
+    "V28": {
+        "name": "Wick",
+        "image_path": "glyph_images/V28.png",
+        "category": "Rope, Baskets, and Cloth",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḥwn",
+                "rough_pronunciation": "hoon",
+                "meaning": "youth"
+            },
+            {
+                "word": "ḥwr",
+                "rough_pronunciation": "hoor",
+                "meaning": "poor, wretched"
+            },
+            {
+                "word": "ḥbs",
+                "rough_pronunciation": "heb-es",
+                "meaning": "cover, clothe, get dressed"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a deep 'h' sound."
+                }
+            ],
+            "did_you_know": "This is one of four different 'h' sounds that ancient Egyptian had."
+        },
+        "advanced": {
+            "phonetic_values": ["ḥ"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "V30": {
+        "name": "Basket",
+        "image_path": "glyph_images/V30.png",
+        "category": "Rope, Baskets, and Cloth",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḥr-nb",
+                "rough_pronunciation": "her neb",
+                "meaning": "everyone"
+            },
+            {
+                "word": "nb",
+                "rough_pronunciation": "neb",
+                "meaning": "lord, master, owner"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can repressent a sound like 'neb' in English."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'basket'."
+                },
+                {
+                    "type": "Adjective",
+                    "explanation": "When used after a noun this is an adjective that can mean 'every' or 'all'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["nb"],
+            "functions": [
+                "When used after a noun this is an adjective that can mean 'every' or 'all'. Unlike other adjectives, this one cannot stand alone in a sentence.",
+                "**Ideogram** for 'basket'"],
+            "notes": ""
+        }
+    },
+    "V31": {
+        "name": "Basket with Handle",
+        "image_path": "glyph_images/V31.png",
+        "category": "Rope, Baskets, and Cloth",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḥnkyt",
+                "rough_pronunciation": "ken-ek-eet",
+                "meaning": "bed"
+            },
+            {
+                "word": "ky",
+                "rough_pronunciation": "key",
+                "meaning": "other, another"
+            },
+            {
+                "word": "kȝj",
+                "rough_pronunciation": "kah-eeh",
+                "meaning": "think, plan"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 'k'."
+                },
+                {
+                    "type": "Pronoun",
+                    "explanation": "When placed at the very end of a word, it can mean 'her' or 'its' to show possession."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["k"],
+            "functions": ["2nd-person masculine singular pronoun that can mean 'you' or 'your' depending on context."],
+            "notes": "Often only distinguishable from V30 by the small handle on this glyph."
+        }
+    },
+    "W10": {
+        "name": "Cup",
+        "image_path": "glyph_images/W10.png",
+        "category": "Vessels",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "wsht",
+                "rough_pronunciation": "wash-et",
+                "meaning": "broad hall"
+            },
+            {
+                "word": "swsḫ",
+                "rough_pronunciation": "sooh-sekh",
+                "meaning": "broaden"
+            },
+            {
+                "word": "m-bjȝ",
+                "rough_pronunciation": "ma-bee-ah",
+                "meaning": "no"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "In some uses, can be roughly pronounced 'hone-ooh'."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can be used at the end of the words related to cups, but is not pronounced."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'wide'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["hnw"],
+            "functions": [
+                "**Ideogram** and **Determinative** for *wsḫ* 'wide'",
+                "**Determinative** for 'cup'"],
+            "notes": ""
+        }
+    },
+    "W22": {
+        "name": "Beer Jug",
+        "image_path": "glyph_images/W22.png",
+        "category": "Vessels",
+        "common_meanings": [
+            "beer"
+        ],
+        "common_words": [
+            {
+                "word": "ḥnqt",
+                "rough_pronunciation": "hen-eqet",
+                "meaning": "beer"
+            },
+            {
+                "word": "ḥnw",
+                "rough_pronunciation": "hen-ooh",
+                "meaning": "property"
+            },
+            {
+                "word": "hnw",
+                "rough_pronunciation": "hen-ooh",
+                "meaning": "jar"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'beer' in offering formulas."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'waiter'."
+                },
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Used at the end of words related to pots, but not pronounced."
+                }
+            ],
+            "did_you_know": "Ancient Egyptians would present their deceased with beer for use in the afterlife. They viewed it as a vital food and drink staple rather than just a luxury."
+        },
+        "advanced": {
+            "phonetic_values": [],
+            "functions": [
+                "**Ideogram** for *ḥnqt* 'beer' in offering formulas",
+                "**Ideogram** for *wdpw* 'waiter'",
+                "**Determinative** for 'pot'"
+            ],
+            "notes": ""
+        }
+    },
+    "W24": {
+        "name": "Pot",
+        "image_path": "glyph_images/W24.png",
+        "category": "Vessels",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ṯnw",
+                "rough_pronunciation": "tej-noo",
+                "meaning": "each, every"
+            },
+            {
+                "word": "ḥnw",
+                "rough_pronunciation": "hen-ooh",
+                "meaning": "property"
+            },
+            {
+                "word": "ẖnw",
+                "rough_pronunciation": "knen-nooh",
+                "meaning": "interior, home, capital city"
+            },
+            {
+                "word": "mnw",
+                "rough_pronunciation": "men-ooh",
+                "meaning": "monument"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent the sound 'nooh' or 'een' depending on context."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'pot'."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": [
+                "nw",
+                "jn"
+            ],
+            "functions": [
+                "**Ideogram** for 'pot'",
+                "For unknown reasons this appears as a determinative in *ḏȝḏȝt* 'council' and *nḫbt* 'Nekhbet' (vulture goddess)"
+            ],
+            "notes": ""
+        }
+    },
+    "W25": {
+        "name": "Pot with Legs",
+        "image_path": "glyph_images/W25.png",
+        "category": "Vessels",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "jnj",
+                "rough_pronunciation": "eeh-nee",
+                "meaning": "fetch, get, use"
+            },
+            {
+                "word": "jnw",
+                "rough_pronunciation": "eeh-noo",
+                "meaning": "produce, products, tribute"
+            }
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'een' in English. "
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["jn"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "X1": {
+        "name": "Flat Loaf of Bread",
+        "image_path": "glyph_images/X1.png",
+        "category": "Bread",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "ḥjmt",
+                "rough_pronunciation": "him-et",
+                "meaning": "wife"
+            },
+            {
+                "word": "sḫtj",
+                "rough_pronunciation": "sekh-tee",
+                "meaning": "farmer"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "This glyph is one of the most common ways of indicating the feminine in ancient Egyptian.",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound similar to the English letter 't'."
+                },
+                {
+                    "type": "Feminine marker",
+                    "explanation": "When attached to the end of a word this marks the feminine."
+                },
+                {
+                    "type": "Picture sign",
+                    "explanation": "Can represent the word for 'bread'."
+                },
+                {
+                    "type": "Pronoun",
+                    "explanation": "When placed at the very end of a word, this is a pronoun that can mean 'you' or 'your'."
+                }
+            ],
+            "did_you_know": "This might be the most common hieroglyph in ancient Egyptian writing and it has many different functions."
+        },
+        "advanced": {
+            "phonetic_values": [
+                "t",
+                "(j)t(j) when alone or accompanied with I9"
+            ],
+            "functions": [
+                "When at the end of a word (but before any determinatives) this is often a way to mark the feminine. Also, any adjectives that follow a feminine noun must have this ending as well.",
+                "**Ideogram** for *t* bread",
+                "2nd-person feminine singular pronoun that can mean 'you' or 'your' depending on context.",
+                "Very commonly used in feminine singular demonstrative pronouns that are translated to 'this', 'that', 'these', or 'those' in English. There are multiple different forms to be aware of:\n\n    — **tn** \n\n    — **tf** (used to contrast with the -n form) \n\n    — **tw** (mostly used in religious texts)"
+            ],
+            "notes": "This sign is sometimes replaced by V13."
+        }
+    },
+    "X8": {
+        "name": "Bread Mold",
+        "image_path": "glyph_images/X8.png",
+        "category": "Bread",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "rdj",
+                "rough_pronunciation": "ready",
+                "meaning": "give, put cause"
+            },
+            {
+                "word": "ḥtp-dj-nswt",
+                "rough_pronunciation": "hotep dee nes-oot",
+                "meaning": "royal offering"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'dej' in English."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["dj", "d (less common)"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "Y5": {
+        "name": "Game Board and Pieces",
+        "image_path": "glyph_images/Y5.png",
+        "category": "Writing, Games, Music",
+        "common_meanings": [],
+        "common_words": [
+            {
+                "word": "smn",
+                "rough_pronunciation": "semen",
+                "meaning": "set, fix"
+            },
+            {
+                "word": "smnḫ",
+                "rough_pronunciation": "sem-nekh",
+                "meaning": "useful, functional"
+            },
+            {
+                "word": "mnḏ",
+                "rough_pronunciation": "men-dej",
+                "meaning": "breast"
+            } 
+        ],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Sound sign",
+                    "explanation": "Can represent a sound like 'men' in English."
+                }
+            ],
+            "did_you_know": ""
+        },
+        "advanced": {
+            "phonetic_values": ["mn"],
+            "functions": [],
+            "notes": ""
+        }
+    },
+    "Z1": {
+        "name": "Stroke",
+        "image_path": "glyph_images/Z1.png",
+        "category": "Strokes and Figures",
+        "common_meanings": [],
+        "common_words": [],
+        "basic": {
+            "quick_summary": "",
+            "how_it_is_used": [
+                {
+                    "type": "Picture sign marker",
+                    "explanation": "Used at the end of words to indicate that they are meant to be read as picture signs rather than sound signs."
+                }
+            ],
+            "did_you_know": "Without this sign, glyphs are almost always sound signs or meaning signs."
+        },
+        "advanced": {
+            "phonetic_values": [],
+            "functions": [
+                "Used as a determinative of signs meant to be read as ideograms rather than phonograms",
+                "**Ideogram** for *wᶜ* 'one'",
+                "Occasional variant of A1 (Seated man)"
+        ],
+            "notes": ""
+        }
+    },
+    "Z2": {
+        "name": "Three Strokes",
+        "image_path": "glyph_images/Z2.png",
+        "category": "Strokes and Figures",
+        "common_meanings": [],
+        "common_words": [],
+        "basic": {
+            "quick_summary": "This glyph is one of the most common ways of indicating the plural in ancient Egyptian.",
+            "how_it_is_used": [
+                {
+                    "type": "Meaning sign",
+                    "explanation": "Can be used at the end of words to indicate that they are about more than one thing, but is not pronounced."
+                }
+            ],
+            "did_you_know": "Sometimes written in varying arrangements to fit in with the surrounding glyphs. Can also be written with circles."
+        },
+        "advanced": {
+            "phonetic_values": [],
+            "functions": [
+                "**Determinative** for plural",
+                "Sometimes used with singular words that end in 'w' (*false plurals*)"
+        ],
+            "notes": "Sometimes written in varying arrangements to fit in with the surrounding glyphs. Can also be written with circles."
+        }
+    }
+}
