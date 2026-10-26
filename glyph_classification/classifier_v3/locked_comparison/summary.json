@@ -1,0 +1,23 @@
+{
+  "source_groups": [
+    "HMANE_003",
+    "HMANE_004",
+    "MFA_003",
+    "MFA_007",
+    "MFA_013",
+    "MFA_014"
+  ],
+  "source_images": 43,
+  "detected_crops": 601,
+  "v2_v3_agreements": 189,
+  "v2_v3_disagreements": 412,
+  "agreement_rate": 0.3144758735440932,
+  "detector_score_threshold": 0.4,
+  "detector_nms_threshold": 0.4,
+  "crop_pad_fraction": 0.1,
+  "v2_checkpoint": "/Users/sohankilaru/Desktop/hieroglyphProject/glyph_classification/models/v2/resnet18_v2_frozenSplit_min6_12ep_rot10.pth",
+  "v3_checkpoint": "/Users/sohankilaru/Desktop/hieroglyphProject/glyph_classification/classifier_v3/output/resnet18_v3_museum_aug_sqrtweighted_best_val_loss.pth",
+  "v2_preprocessing": "direct_resize_to_square",
+  "v3_preprocessing": "pad_to_square_then_resize",
+  "note": "Agreement is not accuracy. True correctness requires human inspection or labels."
+}

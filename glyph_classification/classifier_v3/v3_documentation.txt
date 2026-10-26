@@ -1,0 +1,111 @@
+HIEROGLYPH AI — VERSION 3 CLASSIFIER DEVELOPMENT DOCUMENTATION
+September 2026
+
+OVERVIEW
+
+Version 3 (V3) of the Hieroglyph AI classifier was developed to improve performance on real museum inscriptions. Version 2 performed strongly on a small validation set of relatively clean, isolated glyph images, but testing in museums revealed a more difficult real-world problem: hieroglyphs appear on stone, wood, and painted surfaces with erosion, shadows, uneven lighting, neighboring signs, unusual orientations, damage, and imperfect detector crops.
+
+The V3 workflow therefore focused less on simply changing the neural-network architecture and more on building a substantially stronger, museum-representative dataset, preventing data leakage, improving preprocessing and augmentation, and creating a genuinely untouched museum benchmark.
+
+1. REAL-WORLD TESTING AND IMAGE COLLECTION
+
+During summer 2026, I tested Hieroglyph AI in museum galleries, including the Museum of Fine Arts, Boston (MFA) and the Harvard Museum of the Ancient Near East (HMANE). These tests exposed the domain gap between clean classifier training images and photographs of actual inscriptions.
+
+I collected original photographs of inscriptions and artifacts at both museums. The project ultimately organized the museum source photographs by artifact/inscription so that multiple photographs of the same object or overlapping inscription would remain together. This was important because putting closely related photographs into both training and testing would make evaluation artificially easy.
+
+The original museum photographs are permanently preserved separately from derived classifier crops.
+
+2. SOURCE GROUPING AND LEAKAGE PREVENTION
+
+Museum photographs were grouped by shared artifact or inscription. HMANE photographs were organized into four source groups, and MFA photographs into sixteen source groups.
+
+Before V3 training, these groups were divided into 14 museum training source groups and 6 protected/locked museum source groups. All photographs from a related artifact remain on the same side of the split.
+
+The six locked groups were deliberately excluded from crop creation, labeling, model training, validation, and model selection. They remain untouched so they can later serve as a genuinely unseen real-world benchmark.
+
+A final provenance audit confirmed that all 1,663 reviewed museum classifier crops came from the 14 designated training groups and that zero came from the six protected groups.
+
+3. DETECTOR CROPS AND MANUAL CURATION
+
+The existing detection pipeline was run on museum photographs to extract candidate hieroglyph crops. Detector output is naturally imperfect: some crops contain background, neighboring glyph fragments, cartouche edges, erosion, partial signs, or unusual orientations.
+
+Rather than cleaning the images into an unrealistic studio-style dataset, I manually reviewed the crops with the goal of preserving realistic conditions. A crop could remain if the target glyph was identifiable even when it contained moderate damage, background, or a small neighboring fragment. Crops that were too ambiguous, unusable, or duplicate representations of the same visual instance were rejected.
+
+A separate manual recropping stage salvaged detector outputs that contained useful glyphs but needed better framing. The final curated museum pool contained 1,663 candidate glyph crops.
+
+4. V2 PRE-LABELING AND HUMAN LABEL VERIFICATION
+
+To make review of thousands of images manageable, the V2 classifier was used only as a pre-labeling tool. It generated a proposed Gardiner sign classification for every one of the 1,663 curated museum crops.
+
+These predictions were not automatically trusted. I manually reviewed the images and corrected incorrect predictions, rejected unusable examples, and retained correct labels. The final review file contained 1,054 explicit manual decisions.
+
+After review, 1,570 museum crops were accepted as labeled data and 93 were rejected. Every one of the 1,663 museum crop IDs was accounted for, with no missing predictions or unmatched correction records.
+
+5. COMBINING CLEAN AND MUSEUM DATA
+
+The original clean classifier dataset contained 360 images across 62 class folders. Rather than replacing these examples, V3 combines the useful clean data with the new museum data.
+
+The complete V3 candidate pool contains 360 original clean images plus 1,663 curated museum candidates, for 2,023 total accounted images. Of the museum candidates, 1,570 were accepted and 93 rejected.
+
+To avoid training classes from extremely little evidence, a sign is eligible for the V3 classifier only if it has at least six total accepted examples and at least five actual training examples.
+
+This produces 59 trainable Gardiner-sign classes and 90 classes archived because they do not yet have enough examples. There are 195 valid images archived from those underrepresented classes and 93 rejected museum images.
+
+The final active training set contains 1,673 images. The clean validation set contains 62 images.
+
+6. PRESERVING THE V2 VALIDATION SPLIT
+
+Where possible, the original V2 clean train/validation assignments were preserved. This avoids repeatedly reshuffling old data until a favorable validation result appears.
+
+Some classes became trainable only because of the new museum examples and therefore have no clean V2 validation example. V3 handles this deliberately: all 59 classes remain part of the classifier, while the 62-image clean validation set represents 34 of those classes.
+
+The validation set is useful for model selection and comparison with earlier development, but it is not treated as a complete estimate of real-world museum performance. That role is reserved for the untouched museum benchmark.
+
+7. FINAL V3 DATASET BUILD AND AUDIT
+
+The successful final V3 dataset build reported:
+- 59 trainable classes
+- 1,673 training images
+- 62 clean validation images
+- 195 archived images
+- 93 rejected images
+- 2,023 / 2,023 candidate images accounted for
+- 14 museum training groups
+- 6 protected museum groups
+- 0 protected-source groups leaking into training
+
+The locked museum classifier-test directory intentionally contains zero crops at training time. This is by design: crops from the six protected full museum source groups will only be generated and labeled after the V3 model has been trained and selected.
+
+8. MODEL CHANGES FROM V2 TO V3
+
+V3 retains a ResNet-18 convolutional neural network so improvements can be attributed primarily to better data and training methodology rather than an entirely different architecture.
+
+V2 used ResNet-18, 224x224 direct resizing, +/-10 degree rotation augmentation, Adam optimization, 12 epochs, batch size 16, and a 1e-3 learning rate. Its split/training logic also required a class to be represented in both training and validation.
+
+V3 changes the following:
+- Keeps ResNet-18 for architectural continuity.
+- Initializes from the learned V2 ResNet-18 backbone while replacing the final classification layer for the new 59-class label space.
+- Fine-tunes the full network rather than treating the old representation as fixed.
+- Uses one canonical 59-class mapping, allowing classes with no clean validation image to remain valid training classes.
+- Replaces forced square stretching with aspect-ratio-preserving pad-to-square preprocessing followed by resizing to 224x224.
+- Adds realistic augmentation intended to approximate museum conditions: small rotations, slight translation/scale/shear, modest perspective changes, brightness/contrast/color variation, and occasional mild blur.
+- Does not use horizontal or vertical flips because mirrored glyph geometry may be meaningful.
+- Uses weighted sampling to address severe class imbalance instead of discarding abundant real examples.
+- Saves the class mapping and preprocessing information with the model checkpoint.
+- Records training/validation metrics, a confusion matrix, per-class metrics, class counts, and a run summary.
+- Evaluates validation metrics using the clean validation examples actually available while preserving all 59 classifier outputs.
+- Explicitly prevents the protected museum benchmark from being used during training.
+
+9. FINAL LOCKED MUSEUM EVALUATION
+
+The clean validation set is small and does not represent all 59 classes or the full difficulty of museum photography. For that reason, it is not the final test of V3.
+
+Only after training and model selection are complete will the detector be run on the six protected museum source groups. Those resulting glyph crops can then be independently reviewed and assigned ground-truth labels. V2 and V3 can be evaluated on the same unseen museum material, including a shared-class comparison where appropriate.
+
+This separation prevents the test set from influencing training decisions and provides a stronger measurement of whether V3 generalizes to the environment Hieroglyph AI is designed for.
+
+10. DEVELOPMENT PRINCIPLE
+
+The central change from V2 to V3 is not simply a larger neural network or a larger number of images. The workflow was redesigned around the real deployment environment: collecting authentic museum photographs, preserving source provenance, manually reviewing and correcting large numbers of detector crops, preventing artifact-level leakage, retaining difficult real-world examples, addressing class imbalance, and reserving untouched museum material for final evaluation.
+
+The objective is a classifier whose performance reflects its ability to recognize hieroglyphs on real artifacts rather than only its ability to recognize clean examples similar to its original training data.

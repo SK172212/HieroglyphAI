@@ -1,0 +1,32 @@
+
+
+Image file: test_7.png
+Top predictions:
+  I10: 0.997
+  G43: 0.001
+  I9: 0.001
+  G17: 0.000
+  R4: 0.000
+Predicted class: I10
+CORRECT
+
+Image file: test_10.png
+Top predictions:
+  D58: 0.827
+  Q1: 0.065
+  R4: 0.058
+  Z1: 0.022
+  Z2: 0.010
+Predicted class: D58
+CORRECT
+
+Image file: test_11.png
+Top predictions:
+  V30: 0.824
+  V31: 0.150
+  Z1: 0.003
+  R4: 0.003
+  I9: 0.003
+Predicted class: V30
+CORRECT
+

@@ -1,0 +1,34 @@
+{
+  "images_evaluated": 48,
+  "shared_classes": [
+    "A1",
+    "Aa1",
+    "D21",
+    "D4",
+    "D58",
+    "G17",
+    "G43",
+    "I10",
+    "I9",
+    "M17",
+    "N35",
+    "O1",
+    "Q3",
+    "R8",
+    "S29",
+    "V13",
+    "V30",
+    "V31",
+    "X1",
+    "Z1",
+    "Z2"
+  ],
+  "v1": {
+    "ckpt": "/Users/sohankilaru/Desktop/hieroglyphProject/glyph_classification/models/v1/resnet18_v1_stratified_10ep_NOflip.pth",
+    "accuracy": 0.9166666666666666
+  },
+  "v2": {
+    "ckpt": "/Users/sohankilaru/Desktop/hieroglyphProject/glyph_classification/models/v2/resnet18_v2_frozenSplit_min6_12ep_rot10.pth",
+    "accuracy": 0.9791666666666666
+  }
+}
