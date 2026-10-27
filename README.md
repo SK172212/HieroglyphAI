@@ -40,7 +40,7 @@ When preparing data for **v3**, I used the earlier v2 detector and classifier to
 | **Model** | Faster R-CNN R50-FPN | ResNet-18 |
 | **Current version** | v3 | v3 |
 
-The dataset and experiment directories preserve earlier versions as well as later training materials. The table describes the preparation workflow rather than claiming that every image in every version was produced in exactly the same way.
+The dataset and experiment directories preserve earlier versions as well as later training materials.
 
 ## Model development and museum testing
 
