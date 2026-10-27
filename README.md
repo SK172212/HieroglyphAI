@@ -46,7 +46,10 @@ The dataset and experiment directories preserve earlier versions as well as late
 
 I trained and evaluated successive versions of the detector and classifier, inspected incorrect predictions, and revised the datasets and inference pipeline. The repository retains training code, evaluation artifacts, and model checkpoints from **v1, v2, and v3**, rather than only the final application.
 
-I also tested HieroglyphAI with museum photographs and exhibits, including visits to the Museum of Fine Arts, Boston and the Harvard Museum of the Ancient Near East. These tests helped identify problems that were less apparent in curated images and informed changes to the visitor-facing interface, including separate Basic and Advanced experiences.
+I also tested HieroglyphAI with museum photographs and exhibits, including visits to the Museum of Fine Arts, Boston and the Harvard Museum of the Ancient Near East. These tests helped me identify challenges such as the impact of museum glass casings and lighting that were less apparent when working with cleaner online reference images. 
+
+Drawing on my knowledge of Middle Egyptian, I also designed separate Basic and Advanced modes to make the app accessible to everyday museum visitors while providing more detailed information for users with a deeper interest in the language.
+
 
 ## Repository guide
 
