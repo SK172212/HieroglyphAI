@@ -8,7 +8,7 @@ HieroglyphAI is a web application I developed to help museum visitors explore an
 
 ## Why I built HieroglyphAI
 
-My interest in hieroglyphs began during an eighth-grade visit to the Metropolitan Museum of Art in New York. I was fascinated by the ancient Egyptian galleries and remember wanting to know what the inscriptions on the artifacts were saying. The museum placards provided dates and historical background, but I couldn't find explanations of the hieroglyphs themselves.
+My interest in hieroglyphs began during an eighth-grade visit to the Smithsonian National Museum of Natural History in DC. I was fascinated by the ancient Egyptian galleries and remember wanting to know what the inscriptions on the artifacts were saying. The museum placards provided dates and historical background, but I couldn't find explanations of the hieroglyphs themselves.
 
 That visit inspired me to begin teaching myself Middle Egyptian. Later, I began learning Python and machine learning so I could build a tool that would let other museum visitors interact more directly with the artifacts in front of them. HieroglyphAI grew from that idea: using a visitor's own photograph to identify individual signs and learn what they represent.
 
@@ -19,7 +19,7 @@ That visit inspired me to begin teaching myself Middle Egyptian. Later, I began 
 3. **Classify:** The detected regions are cropped and passed to a **ResNet-18** classifier, which predicts Gardiner sign classes.
 4. **Present:** The Streamlit app connects identified signs to descriptive metadata, with Basic and Advanced modes, learning materials, and a Previous Scans view.
 
-The current application uses the **V3A detector** and **V3 classifier**. Its inference pipeline filters bounding boxes by size, pads glyph crops, and handles uncertain predictions. A classification is displayed only when the highest predicted probability is at least **0.75** and exceeds the second-highest probability by at least **0.20**; otherwise, the sign is marked unknown.
+The current application uses the **v3 detector** and **v3 classifier**. Its inference pipeline filters bounding boxes by size, pads glyph crops, and handles uncertain predictions. A classification is displayed only when the highest predicted probability is at least **0.75** and exceeds the second-highest probability by at least **0.20**; otherwise, the sign is marked as unknown.
 
 **Scope:** HieroglyphAI identifies individual signs and provides information about them. It does not automatically translate complete inscriptions.
 
@@ -29,22 +29,22 @@ I assembled the datasets from photographs I took inside museums and images from 
 
 For the **detection dataset**, I manually drew all of the bounding boxes around hieroglyphs in the source images. For the **classification dataset**, I initially cropped and labeled individual glyph images by hand, organizing them by Gardiner sign classification.
 
-When preparing data for **V3**, I used the earlier V2 detector and classifier to propose glyph crops and labels more quickly. I then reviewed every proposed result and manually corrected the many crops and classifications that needed adjustment. This let me build on the earlier models while retaining manual quality control over the dataset.
+When preparing data for **v3**, I used the earlier v2 detector and classifier to propose glyph crops and labels more quickly. I then reviewed every proposed result and manually corrected the many crops and classifications that needed adjustment. This let me build on the earlier models while retaining manual quality control over the dataset.
 
 | | Detection | Classification |
 | --- | --- | --- |
 | **Task** | Locate individual hieroglyphs in larger photographs | Identify the Gardiner class of a cropped sign |
 | **Sources** | My museum photographs and online museum collections | My museum photographs and online museum collections |
 | **Initial preparation** | Manually drawn bounding boxes | Manually cropped and labeled glyph images |
-| **V3 workflow** | V2-assisted proposals, followed by manual review and correction | V2-assisted crops and predictions, followed by manual review and correction |
+| **v3 workflow** | v2-assisted proposals, followed by manual review and correction | v2-assisted crops and predictions, followed by manual review and correction |
 | **Model** | Faster R-CNN R50-FPN | ResNet-18 |
-| **Current version** | V3A | V3 |
+| **Current version** | v3 | v3 |
 
 The dataset and experiment directories preserve earlier versions as well as later training materials. The table describes the preparation workflow rather than claiming that every image in every version was produced in exactly the same way.
 
 ## Model development and museum testing
 
-I trained and evaluated successive versions of the detector and classifier, inspected incorrect predictions, and revised the datasets and inference pipeline. The repository retains training code, evaluation artifacts, and model checkpoints from **V1, V2, and V3/V3A**, rather than only the final application.
+I trained and evaluated successive versions of the detector and classifier, inspected incorrect predictions, and revised the datasets and inference pipeline. The repository retains training code, evaluation artifacts, and model checkpoints from **v1, v2, and v3**, rather than only the final application.
 
 I also tested HieroglyphAI with museum photographs and exhibits, including visits to the Museum of Fine Arts, Boston and the Harvard Museum of the Ancient Near East. These tests helped identify problems that were less apparent in curated images and informed changes to the visitor-facing interface, including separate Basic and Advanced experiences.
 
