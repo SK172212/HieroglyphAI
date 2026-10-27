@@ -4,76 +4,106 @@
 
 [Try the web app](https://hieroglyphai.com)
 
-HieroglyphAI is a project I developed to make ancient Egyptian inscriptions more accessible to museum visitors. A visitor can photograph or upload an inscription, select a region of interest, and explore individual hieroglyphs recognized by a two-stage computer vision system. The app includes an introductory learning section as well as more detailed information for users interested in Middle Egyptian.
+HieroglyphAI is a web application I developed to help museum visitors explore ancient Egyptian inscriptions. Visitors can photograph or upload an artifact, crop the area they want to examine, and identify individual hieroglyphs using a two-stage computer vision system. The app provides information about recognized signs, with introductory and more detailed learning materials.
 
-The project grew out of my independent study of Middle Egyptian and my interest in applying image recognition to real-world artifacts. Museum photographs pose challenges that clean reference images often do not: dim lighting, glass reflections, weathering, varying stone textures, and partially damaged signs.
+## Why I built HieroglyphAI
+
+My interest in hieroglyphs began during an eighth-grade visit to the Metropolitan Museum of Art in New York. I was fascinated by the ancient Egyptian galleries and remember wanting to know what the inscriptions on the artifacts were saying. The museum placards provided dates and historical background, but I couldn't find explanations of the hieroglyphs themselves.
+
+That visit inspired me to begin teaching myself Middle Egyptian. Later, I began learning Python and machine learning so I could build a tool that would let other museum visitors interact more directly with the artifacts in front of them. HieroglyphAI grew from that idea: using a visitor's own photograph to identify individual signs and learn what they represent.
 
 ## How it works
 
-1. **Capture or upload:** A custom camera/upload component lets visitors select and crop a photograph.
-2. **Detect:** A Detectron2 **Faster R-CNN R50-FPN** model locates likely hieroglyphs and produces bounding boxes.
-3. **Classify:** Detected regions are cropped and passed to a **ResNet-18** classifier, which predicts Gardiner sign classes.
-4. **Present:** The Streamlit app connects identified signs to descriptive metadata and learning materials, with a Basic/Advanced experience and a Previous Scans view.
+1. **Capture or upload:** A custom camera/upload component lets visitors take or upload a photograph and crop the region of interest.
+2. **Detect:** A Detectron2 **Faster R-CNN R50-FPN** model identifies likely hieroglyphs and produces bounding boxes.
+3. **Classify:** The detected regions are cropped and passed to a **ResNet-18** classifier, which predicts Gardiner sign classes.
+4. **Present:** The Streamlit app connects identified signs to descriptive metadata, with Basic and Advanced modes, learning materials, and a Previous Scans view.
 
-The deployed app uses the V3A detector and V3 classifier. Its inference pipeline includes bounding-box size filtering, padded glyph crops, and confidence-based handling of uncertain predictions. In the current app code, classification is shown only when the top probability is at least **0.75** and exceeds the second-highest probability by at least **0.20**; otherwise it is marked unknown.
+The current application uses the **V3A detector** and **V3 classifier**. Its inference pipeline filters bounding boxes by size, pads glyph crops, and handles uncertain predictions. A classification is displayed only when the highest predicted probability is at least **0.75** and exceeds the second-highest probability by at least **0.20**; otherwise, the sign is marked unknown.
 
-**Scope:** HieroglyphAI recognizes individual signs and provides information about them. It is not a complete automatic translation system.
+**Scope:** HieroglyphAI identifies individual signs and provides information about them. It does not automatically translate complete inscriptions.
 
-## Development and iteration
+## Building the datasets
 
-I developed multiple generations of both the glyph detector and classifier. Early experiments used curated images and existing museum image sources; subsequent dataset work incorporated photographs I took in museum settings to better represent the conditions in which visitors would use the app. This repository retains training code, dataset materials, evaluation artifacts, and final checkpoints across **V1, V2, and V3/V3A**, rather than only the latest application.
+I assembled the datasets from photographs I took inside museums and images from online museum collections. Because the app is intended for use on real artifacts, the data includes differences in lighting, stone textures, carving styles, preservation, and photographic conditions.
 
-I also tested the app with photographs and physical exhibits, including visits to the Museum of Fine Arts, Boston and the Harvard Museum of the Ancient Near East. Those tests informed both model/dataset improvements and interface decisions intended to make the tool easier for visitors to use.
+For the **detection dataset**, I manually drew all of the bounding boxes around hieroglyphs in the source images. For the **classification dataset**, I initially cropped and labeled individual glyph images by hand, organizing them by Gardiner sign classification.
+
+When preparing data for **V3**, I used the earlier V2 detector and classifier to propose glyph crops and labels more quickly. I then reviewed every proposed result and manually corrected the many crops and classifications that needed adjustment. This let me build on the earlier models while retaining manual quality control over the dataset.
+
+| | Detection | Classification |
+| --- | --- | --- |
+| **Task** | Locate individual hieroglyphs in larger photographs | Identify the Gardiner class of a cropped sign |
+| **Sources** | My museum photographs and online museum collections | My museum photographs and online museum collections |
+| **Initial preparation** | Manually drawn bounding boxes | Manually cropped and labeled glyph images |
+| **V3 workflow** | V2-assisted proposals, followed by manual review and correction | V2-assisted crops and predictions, followed by manual review and correction |
+| **Model** | Faster R-CNN R50-FPN | ResNet-18 |
+| **Current version** | V3A | V3 |
+
+The dataset and experiment directories preserve earlier versions as well as later training materials. The table describes the preparation workflow rather than claiming that every image in every version was produced in exactly the same way.
+
+## Model development and museum testing
+
+I trained and evaluated successive versions of the detector and classifier, inspected incorrect predictions, and revised the datasets and inference pipeline. The repository retains training code, evaluation artifacts, and model checkpoints from **V1, V2, and V3/V3A**, rather than only the final application.
+
+I also tested HieroglyphAI with museum photographs and exhibits, including visits to the Museum of Fine Arts, Boston and the Harvard Museum of the Ancient Near East. These tests helped identify problems that were less apparent in curated images and informed changes to the visitor-facing interface, including separate Basic and Advanced experiences.
 
 ## Repository guide
 
 | Folder | Contents |
 | --- | --- |
-| `glyph_det/` | Hieroglyph detection datasets, annotations, training experiments, evaluation results, and final Faster R-CNN checkpoints |
-| `glyph_classification/` | Individual-glyph classification datasets, ResNet-18 training scripts, experiments, and checkpoints |
-| `glyph_pipeline/` | Standalone scripts and test materials for combining detection and classification |
-| `app/` | Streamlit web interface, custom camera component, learning cards, metadata, and production inference pipeline |
+| `glyph_det/` | Detection datasets, annotations, training experiments, evaluation results, and Faster R-CNN checkpoints |
+| `glyph_classification/` | Individual-glyph datasets, ResNet-18 training scripts, experiments, and checkpoints |
+| `glyph_pipeline/` | Earlier standalone scripts and test materials combining detection and classification |
+| `app/` | Streamlit interface, custom camera component, learning cards, metadata, and current inference pipeline |
 
-Selected final model checkpoints are stored using **Git LFS**, so cloning with LFS enabled is required to obtain their full contents.
+Selected final model checkpoints are stored using **Git LFS**. Git LFS is required to download the full checkpoint files rather than their pointer files.
 
 ## Run locally
 
-The public app is available at **https://hieroglyphai.com**. Local setup is more involved because the project depends on PyTorch, torchvision, **Detectron2**, and a Supabase backend. The dependency list in `app/requirements.txt` reflects the app environment, but platform-specific Detectron2 installation and compatible package versions may require additional setup.
+The working public application is available at **https://hieroglyphai.com**. Running the repository locally requires a compatible Python environment with PyTorch, torchvision, **Detectron2**, Streamlit, and other dependencies, as well as a configured Supabase backend. `app/requirements.txt` records application dependencies, but installing Detectron2 may require platform-specific steps.
 
-1. Install **Git LFS**, clone this repository, and ensure the LFS objects are present:
+1. Install **Git LFS**, clone the repository, and download the model checkpoints:
+
    ```bash
    git lfs install
    git clone https://github.com/SK172212/HieroglyphAI.git
    cd HieroglyphAI
    git lfs pull
    ```
+
 2. Set up a compatible Python environment with PyTorch, torchvision, Detectron2, and the dependencies in `app/requirements.txt`.
-3. Copy the final model files into the paths expected by `app/pipeline.py`:
+
+3. Place the final checkpoints at the paths expected by `app/pipeline.py`:
+
    ```bash
    mkdir -p app/models
    cp glyph_det/experiments/v3A/model_final_v3A.pth app/models/model_final_v3A.pth
    cp glyph_classification/classifier_v3/output/resnet18_v3_museum_aug_sqrtweighted_best_val_loss.pth app/models/
    ```
-4. Set the `SUPABASE_URL` and `SUPABASE_KEY` environment variables for a **Supabase project you control**, with the required database table and storage bucket configured. **Never commit credentials.** The app's Previous Scans feature depends on this service.
-5. From the app directory, run:
+
+4. Configure the `SUPABASE_URL` and `SUPABASE_KEY` environment variables for a **Supabase project you control**, including the database table and storage bucket required by the application. **Never commit credentials.** The Previous Scans feature uses this backend.
+
+5. Start the app from its directory:
+
    ```bash
    cd app
    streamlit run app.py
    ```
 
-These steps describe the repository's expected inputs; they are **not a claim that a fresh-clone installation has been end-to-end verified** on every platform.
+**Verification note:** I have launched this repository's Streamlit app successfully on macOS using an existing compatible Python environment, the final checkpoints, and configured Supabase variables. A clean installation from a fresh clone has **not** been verified end to end across platforms.
 
 ## Key files
 
-- `app/app.py` — visitor-facing Streamlit experience
-- `app/pipeline.py` — current detector/classifier inference, postprocessing, and output generation
+- `app/app.py` — visitor-facing Streamlit application
+- `app/pipeline.py` — detector/classifier inference and postprocessing
 - `app/camera_component/` — custom capture, upload, and crop interface
 - `app/cards/` — introductory learning materials
 - `app/metadataU.json` — hieroglyph metadata used by the interface
 - `glyph_pipeline/detect_and_classify.py` — earlier standalone combined pipeline
 
-## Notes on the development process
+## Coding assistance
 
-I designed the project around a problem I encountered while studying Middle Egyptian: inscriptions in museums can be difficult for visitors to interpret, even when individual signs are visible. My work included collecting and organizing training images, labeling glyph locations, training and comparing models, inspecting predictions, testing in museum conditions, and revising the interface. I used AI coding assistance during software development and iteratively tested and revised the resulting code.
+I used ChatGPT as a coding assistant during development, including generating code from my specifications, troubleshooting errors, and revising implementations. I directed the project's design, assembled and labeled the datasets, conducted model experiments and evaluation, tested the application in museum settings, and reviewed and modified the code to meet the project's requirements.
 
-This repository preserves the experimental work alongside the finished application so readers can trace how the system evolved.
+The repository preserves the experimental work alongside the finished application so readers can examine how the system evolved.
